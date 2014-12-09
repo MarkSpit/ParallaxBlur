@@ -13,6 +13,7 @@
 @interface JPBParallaxBlurViewController : UIViewController
 
 - (void)setHeaderImage:(UIImage*)headerImage;
+- (void)setImageHeight:(CGFloat)newImageHeight;
 - (void)addHeaderOverlayView:(UIView*)overlay;
 - (CGFloat)headerHeight;
 - (UIScrollView*)mainScrollView;
